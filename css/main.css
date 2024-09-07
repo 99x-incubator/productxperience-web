@@ -23,6 +23,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--dark-100);
+  overflow-x: hidden;
 }
 p{
     font-weight: 300;
@@ -517,6 +518,12 @@ section {
     font-weight: 300;
     color: #fff;
 }
+.agenda-content .agenda-row:first-child:hover,.agenda-content .agenda-row:first-child:focus{
+    border-radius: 16px 16px 0 0;
+}
+.agenda-content .agenda-row:last-child:hover,.agenda-content .agenda-row:last-child:focus{
+    border-radius: 0 0 16px 16px;
+}
 hr{
     border-color: var(--light-100);
     opacity: 1;
@@ -565,6 +572,13 @@ footer {
     }
     .top-banner .diamond-icon-red::after{
         right: -30px;
+    }
+    .about-bg .square{
+        background: var(--dark-100);
+        padding-bottom: 10px;
+    }
+    .about-bg .square p{
+        padding-inline: 10px;
     }
   }
 
