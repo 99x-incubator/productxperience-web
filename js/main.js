@@ -83,7 +83,7 @@ function updateCountdown() {
   seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
   // Update the countdown display
-  document.getElementById('countdown').innerHTML = `<span>${days}D:</span><span>${hours}H:</span><span>${minutes}M</span>
+  document.getElementById('countdown').innerHTML = `<span>${days}D:</span><span>${hours}H:</span><span>${minutes}M:</span><span>${seconds}S</span>
   `;
 }
 

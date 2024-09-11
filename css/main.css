@@ -289,13 +289,7 @@ section {
     box-shadow: 5px 5px 0px 0px var(--dark-100);
     border: 2px solid var(--dark-100);
 }
-.square-lg h4{
-    font-size: 34px;
-    font-weight: 600;
-    color: var(--dark-100);
-    margin: 0;
-    padding: 10px;
-}
+
 .square p {
     font-family: "Inter", sans-serif;
     margin-top: 10px;
@@ -309,6 +303,13 @@ section {
     color: var(--text-dark-100);
     font-weight: normal;
     margin: 0;
+}
+.square-lg h4{
+    font-size: 34px;
+    font-weight: 600;
+    color: var(--dark-100);
+    margin: 0;
+    padding: 10px;
 }
 .square-brand{
     background-color: var(--brand-bg-100);
