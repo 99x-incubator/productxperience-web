@@ -628,3 +628,46 @@ footer {
       }
       
   }
+
+  /* Sponsor Section Styles */
+.sponsor-section {
+    padding: 60px 0;
+    background: url('../img/bg_sponsors.svg') no-repeat center center/cover; /* Use your background image */
+    color: #fff;
+}
+
+.sponsor-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.sponsor-logos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sponsor-item {
+    flex: 1 1 30%; /* Responsive flex for three logos */
+    max-width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.sponsor-logo {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.sponsor-logo:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
