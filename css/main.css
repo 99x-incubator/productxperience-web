@@ -427,6 +427,9 @@ section {
     max-width: 380px;
     margin: 0 auto;
     margin-bottom: 50px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .speaker-pic{
     position: relative;
@@ -451,12 +454,20 @@ section {
     position: relative;
     transition: all 0.3s ease;
     z-index: 2;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 .speaker-box:hover .speaker-details{
     background-color: var(--brand-bg-100);
 }
 .speaker-box:hover .speaker-pic img{
     transform: translate(-70px,20px) scale(1.2);
+}
+.speaker-details .square-light{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
 }
 
 .speaker-pic::before{
