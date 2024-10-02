@@ -631,6 +631,7 @@ footer {
 
   /* Sponsor Section Styles */
 .sponsor-section {
+    min-height: auto;
     padding: 60px 0;
     background: url('../img/bg_sponsors.svg') no-repeat center center/cover; /* Use your background image */
     color: #fff;
@@ -670,4 +671,48 @@ footer {
 
 .sponsor-logo:hover {
     transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+/* Previous Events Section */
+.events-section {
+    padding: 60px 0;
+    background-color: #111; /* Dark background similar to the image */
+    color: #fff;
+}
+
+.events-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section-heading {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.event-block {
+    margin-bottom: 50px;
+}
+
+.event-title {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.event-location {
+    color: #98ff66; /* Green highlight for the location */
+}
+
+.event-description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.section1 {
+    font-size: 16px;
 }
