@@ -218,6 +218,10 @@ h4 {
     margin-block: 25px;
 }
 
+h4.square {
+    font-weight: 200;
+}
+
 p {
     color: var(--light-100);
     font-size: 16px;
@@ -528,7 +532,7 @@ section {
 }
 
 .speaker-box:hover .speaker-pic img {
-    transform: translate(-70px, 20px) scale(1.2);
+    transform: translate(-30px, 20px) scale(1.1);
 }
 
 .speaker-details .square-light {
@@ -559,6 +563,11 @@ section {
 .square-container {
     position: relative;
     z-index: 2;
+}
+
+.square-title {
+    text-align: center;
+    font-weight: 200;
 }
 
 
