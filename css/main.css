@@ -18,6 +18,9 @@
     --brand-secondary-bg-100: var(--brand-secondary-100);
     --brand-danger-bg-100: var(--brand-danger-100);
 }
+html, body{
+    overflow-x: hidden;
+}
 
 body {
     font-family: "Inter", sans-serif;
