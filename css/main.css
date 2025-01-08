@@ -759,8 +759,8 @@ footer {
 .page-container {
     padding-top: 20px;
     display: flex;
-    justify-content: center; /* Horizontally center */
-    align-items: center;    /* Vertically center (optional) */
+    justify-content: center;
+    align-items: center;    
     height: 100vh;   
 }
 
