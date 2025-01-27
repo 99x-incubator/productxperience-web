@@ -54,7 +54,7 @@ menuItems.forEach((menuItem) => {
 
 
 // Set the target date and time
-const targetDate = new Date('2025-01-28T14:30:00.000Z');
+const targetDate = new Date('2025-01-28T08:00:00.000Z');
 
 // Get the current date and time
 let currentDate = new Date();
