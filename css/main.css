@@ -873,6 +873,19 @@ footer {
     z-index: 1;
 }
 
+.slides-button {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    height: 44px;
+    padding: 4px 48px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+
 /*---------------  Mobile Responsiveness  -----------------*/
 
 @media only screen and (max-width: 768px) {
